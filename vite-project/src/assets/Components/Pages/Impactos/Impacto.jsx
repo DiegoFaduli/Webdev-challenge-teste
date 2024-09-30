@@ -6,9 +6,9 @@ const Impactos = () => {
     return (
         <>
             <Header />
-            <div className="bg-[linear-gradient(to_top,#143896,#000000_100%)] text-black px-16 ">
+            <div className="bg-[linear-gradient(to_top,#143896,#000000_100%)] text-black px-4 md:px-16">
                 <div className="container mx-auto py-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-16 bg-gradient-to-t from-[#143896] to-black">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-16 bg-gradient-to-t from-[#143896] to-black">
                         <Card 
                             title="Frustração e Desconfiança" 
                             content="Interfaces lentas e suporte ineficaz comprometem seriamente a experiência do usuário. Quando o sistema não responde de maneira rápida e eficiente, os usuários se sentem frustrados, e isso pode gerar uma desconfiança em relação à plataforma como um todo. Essa demora, especialmente em momentos críticos, pode levar à insatisfação, pois os usuários esperam agilidade e precisão. A consequência mais imediata é a perda de confiança no serviço oferecido. Além disso, a insatisfação dos usuários pode se traduzir em feedbacks negativos e até mesmo a migração para plataformas concorrentes."
